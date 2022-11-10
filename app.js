@@ -1,26 +1,3 @@
-//document.getElementById("count-el").innerText = 5;
-
-// lesson 4
-// let count = 0;
-// console.log(count);
-// // 1. Create a variable, myAge, and set its value to your age
-// let myAge = 28;
-// // 2. Log the myAge variable to the console
-// console.log(myAge);
-
-/*
-//lesson 5
-// 1. Create two variables, myAge and humanDogRatio
-let myAge = 28;
-let humanDogRatio = 2;
-// 2. Multiply the two together and store the result in myDogAge 
-let myDogAge = myAge * humanDogRatio;
-// 3. Log myDogAge to the console
-console.log(myDogAge);
-*/
-
-
-//lesson 8
 // intialize the count as 0
 // listen for clicks on the increment button
 // increment the count variable when the button is clicked
@@ -49,7 +26,7 @@ function increment() {
     // }
 } //after the first click the app starts looping only the icrement() function and it doesn't reset laps to '0'.
 
-//lesson 18
+
 //1. Create a function, save(), which logs out the count when it's called
 function save() {
     let saved = " " + laps + " - ";
@@ -58,7 +35,8 @@ function save() {
     //or welcomeEl.textContent += saved; so i don't have to add the "(empty space)" in the "saved" variable.
 
     // if (counted.click) {
-    //     // let newArray = array.push(saved);
+    //     //array.push(saved)   
+    //     // let newArray = array;
     //     array[array.length] = saved;
     //     welcomeEl.innerText = greeting + name + "you have saved the laps: " + array;
     //     console.log(array); 
@@ -78,8 +56,6 @@ if (deleteBtn.click) {
     }
 }
 
-
-// //lesson 23
 // // Grab the welcome-el paragraph and store it in a variable called welcomeEl
 // let welcomeEl = document.getElementById("welcome-el");
 // // Create two variables (name & greeting) that contains your name
